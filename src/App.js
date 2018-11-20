@@ -14,6 +14,13 @@ const App = (props) => (
     <div>
       <Button
         label="Click me!"
+        onClickHandler={() => alert('Click!')}
+      />
+    </div>
+    <div>
+      <Button
+        label="kliknij!"
+        onClickHandler={() => console.log('Kliknąłeś!')}
       />
     </div>
   </div>

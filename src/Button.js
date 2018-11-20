@@ -1,7 +1,10 @@
 import React from 'react'
 
-const Button = ({ label }) => (
-    <button>{label}</button>
+const Button = ({ label, onClickHandler}) => (
+    <button
+        onClick={onClickHandler}
+    >
+        {label}</button>
 )
 
 export default Button
