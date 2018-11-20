@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({ label, onClickHandler}) => (
+const Button = ({ label, onClickHandler }) => (
     <button
         onClick={onClickHandler}
     >
