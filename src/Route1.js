@@ -1,5 +1,9 @@
 import React from 'react'
 
-const Route1 = () => (<div>Hello Route1</div>)
+const Route1 = () => (
+    <h2>
+        Hello Route1
+    </h2>
+)
 
-export default  Route1
+export default Route1
