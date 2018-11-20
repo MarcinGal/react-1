@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Button = (props) => (
-    <button>{props.label}</button>
+const Button = ({ label }) => (
+    <button>{label}</button>
 )
 
 export default Button
