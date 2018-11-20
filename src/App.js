@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
+import DisplayParam from './DisplayParam'
 import Button from './Button'
 import Route1 from './Route1'
 import Route2 from './Route2'
@@ -22,6 +23,7 @@ const App = (props) => (
           <Route path="/route-1" component={Route1} />
           <Route path="/route-2" component={Route2} />
           <Route path="/route-3" component={Route3} />
+          <Route path="/param/:key" component={DisplayParam} />
       </div>
       </Router>
     </div>
